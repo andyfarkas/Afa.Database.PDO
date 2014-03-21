@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c5f6f2a09864ce039207108914d19547",
+    "packages": [
+        {
+            "name": "afa/database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andyfarkas/Afa.Database.git",
+                "reference": "ff4bafe333d2d1cda023aa4da3f015318915ed01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andyfarkas/Afa.Database/zipball/ff4bafe333d2d1cda023aa4da3f015318915ed01",
+                "reference": "ff4bafe333d2d1cda023aa4da3f015318915ed01",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Afa\\": "src\\Afa"
+                }
+            },
+            "support": {
+                "source": "https://github.com/andyfarkas/Afa.Database/tree/master",
+                "issues": "https://github.com/andyfarkas/Afa.Database/issues"
+            },
+            "time": "2014-03-20 12:58:50"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "afa/database": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
