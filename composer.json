@@ -1,5 +1,7 @@
 {
-    "require-dev": {
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
         "afa/database": "dev-master"
     },
     "repositories": [
