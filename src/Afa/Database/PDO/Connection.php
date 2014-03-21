@@ -42,7 +42,7 @@ class Connection implements \Afa\Database\IConnection
         $statement = $this->pdoConnection->prepare($query);
         $statement->execute($arguments);
         $data = $statement->fetchAll(\PDO::FETCH_ASSOC);
-        return new \Afa\Database\InMemoryResult($data);
+        return new \Afa\Database\Result\InMemory($data);
     }
 
     /**
@@ -53,5 +53,13 @@ class Connection implements \Afa\Database\IConnection
     {
         $statement = $this->pdoConnection->prepare($query);
         $statement->execute($arguments);
+    }
+
+    /**
+     * @return int
+     */
+    public function lastInsertId()
+    {
+        return $this->pdoConnection->lastInsertId();
     }
 }
